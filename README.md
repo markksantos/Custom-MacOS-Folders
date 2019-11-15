@@ -9,7 +9,9 @@
   <h3 align="center">Custom MacOS Folder Icons Script</h3>
 
   <p align="center">
-    Pack of custom folder 📂 icons for MacOS. Including Script & Photoshop file.
+    Pack of custom folder 📂 icons for MacOS. 
+  <br /> 
+  Includes Script & Photoshop file.
     <br />
     <a href="https://github.com/markksantos/Custom-MacOS-Folders">Download Icons</a>
     ·
@@ -30,19 +32,26 @@
 </p>
 
 
-# Make your own file icon!
+## Make your own file icon!
 
 I created a script file in JavaScript that can be run on Photoshop and make customized folder icons with other icons in a matter of seconds!
 
 You can download it [here](https://github.com/markksantos/Custom-MacOS-Folders/issues).
 
-## How to use it? | Tutorial Video
+## How to use script with Photoshop | Tutorial Video
 
 I made a tutorial video on how to use the script with Photoshop.
 
 [![Tutorial](https://img.youtube.com/vi/   ID HERE    /0.jpg)](https://www.youtube.com/watch?v=   ID HERE      )
 
 1. Download the `custom_folder_icon_script.js` file [here](https://github.com/markksantos/Custom-MacOS-Folders/issues).
+2. Rename your icons .png files to 'icons_1','icons_2'...respectively. 
+3. Open Photoshop.
+
+
+Downloads required to run script:
+Script: [download](https://github.com/markksantos/Custom-MacOS-Folders/issues).
+.PSD file: [download](https://github.com/markksantos/Custom-MacOS-Folders/issues).
 
 ### Make a request
 Don't have Photoshop or don't know how to use the script? No worries!
