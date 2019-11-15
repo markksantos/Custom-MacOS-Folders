@@ -1,10 +1,14 @@
 
-<!-- PROJECT LOGO -->
-<br />
+<!--  Hey, I'm Mark! 
+     
+     Welcome to the README.md raw file. 🤪
+     Feel free to use this as a template for
+     your projects! 
+     
+     -->
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg">
   </a>
-  
   <a href="https://twitter.com/intent/tweet? text=Get%20a%20free%20pack%20of%20custom%20folder%20icons&url=https://github.com/markksantos/Custom-MacOS-Folders&via=markksantos&hashtags=icons,folders,mac,windows,linux,markksantos">
    <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social">
   </a>
@@ -24,6 +28,8 @@
     ·
     <a href="https://github.com/othneildrew/Custom-MacOS-Folders/issues">Request Feature</a>
   <h4 align="center">by <a href="https://www.markksantos.com">Mark Santos</a></h4>
+    <br /> 
+      <br /> 
   </p>
 </p>
 
