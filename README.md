@@ -1,13 +1,18 @@
 
 <!-- PROJECT LOGO -->
 <br />
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/github/license/mashape/apistatus.svg">
+  </a>
+  
+  <a href="https://twitter.com/intent/tweet? text=Get%20a%20free%20pack%20of%20custom%20folder%20icons&url=https://github.com/markksantos/Custom-MacOS-Folders&via=markksantos&hashtags=icons,folders,mac,windows,linux,markksantos">
+   <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social">
+  </a>
 <p align="center">
   <a href="https://github.com/markksantos/Custom-MacOS-Folders">
-    <img src="icon.png" alt="Logo" width="80" height="80">
+    <img src="icon.png" alt="Logo" width="100" height="100">
   </a>
-
   <h2 align="center">Custom MacOS Folder Icons Script</h3>
-
   <p align="center">
     Pack of custom MacOS folder icons 📂. 
   <br /> 
@@ -18,16 +23,7 @@
     <a href="https://github.com/markksantos/Custom-MacOS-Folders/issues">Report Problem</a>
     ·
     <a href="https://github.com/othneildrew/Custom-MacOS-Folders/issues">Request Feature</a>
-    <br />
-      <br />
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/github/license/mashape/apistatus.svg">
-  </a>
-  
-  <a href="https://twitter.com/intent/tweet? text=Get%20a%20free%20pack%20of%20custom%20folder%20icons&url=https://github.com/markksantos/Custom-MacOS-Folders&via=markksantos&hashtags=icons,folders,mac,windows,linux,markksantos">
-   <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social">
-  </a>
-
+  <h4 align="center">by <a href="https://www.markksantos.com">Mark Santos</a></h4>
   </p>
 </p>
 
