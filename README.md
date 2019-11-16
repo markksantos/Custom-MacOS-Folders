@@ -20,7 +20,7 @@
   <p align="center">
     A custom MacOS folder icons generator created in Java. 
   <br /> 
-     IN BETA VERSION
+     <i>BETA VERSION<i/>
      <br />
   Includes Executable & Photoshop file.
     <br />
