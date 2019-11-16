@@ -45,7 +45,7 @@ public class TestDragNDropFiles extends ResizeImage {
 
     public static void main(String[] args) {
         new TestDragNDropFiles();
-    	
+
     }
 
     public TestDragNDropFiles() {
@@ -57,7 +57,7 @@ public class TestDragNDropFiles extends ResizeImage {
                 } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException ex) {}
 
                 JFrame frame = new JFrame("Resizer");
-               
+
                 Image icon = Toolkit.getDefaultToolkit().getImage("icon.png");
                 frame.setIconImage(icon);    
 
@@ -68,7 +68,7 @@ public class TestDragNDropFiles extends ResizeImage {
                 frame.setLocationRelativeTo(null);
                 frame.getContentPane().setBackground(Color.WHITE);
                 frame.setVisible(true);
-                
+
             }
         });
     }
@@ -185,9 +185,9 @@ public class TestDragNDropFiles extends ResizeImage {
                 		}
 
                 	}
-                	
+
                     //JOptionPane.showMessageDialog(null, "" + numImg + " images are been created. This may take a while.");
-                    
+
                     JOptionPane pane = new JOptionPane("" + numImg + " images are been created. This may take a while.");
                     final JDialog dialog = pane.createDialog("Initiating Photoshop...");
                     dialog.setVisible(true);
@@ -230,7 +230,7 @@ public class TestDragNDropFiles extends ResizeImage {
                     		"\n" + "executeAction(app.charIDToTypeID(\"quit\"), undefined, DialogModes.NO);"+ 
                     		"\n" +
                     		"})();");
-                    
+
 
                     Path file = Paths.get("customized_action_script_photoshop.js");
                     try {
@@ -254,39 +254,52 @@ public class TestDragNDropFiles extends ResizeImage {
                     	e.printStackTrace();
                     }
 
-                    System.out.println(Paths.get("PSUserConfig.txt"));
-                    System.out.println(Paths.get(filePath.substring(0, filePath.indexOf("/",7)) + "/Library/Preferences/Adobe Photoshop CC 2019 Settings/PSUserConfig.txt"));
-
-
                     Path temp = null;
+
                     // move PSUserConfig.txt to PhotoShop Setting Folder
                     try {
                     	temp = Files.move (file2,  
                     			Paths.get(filePath.substring(0, filePath.indexOf("/",7)) + "/Library/Preferences/Adobe Photoshop CC 2019 Settings/PSUserConfig.txt"));
                     } catch (IOException e2) { //error 
                     } 
-                    if(temp != null) { System.out.println("File moved successfully"); } 
-                    else{ System.out.println("Failed to move the file"); } 
-/*
+                    if(temp != null) { System.out.println("\"PSUserConfig.txt\" moved successfully"); } 
+                    else{ System.out.println("--ERROR:  FAILED to move the \"PSUserConfig.txt\""); } 
+
+
+                    
+                    InputStream is = TestDragNDropFiles.class.getResourceAsStream("/custom.psd");
+                    
+                    //System.out.println("is = " + is);
+                    
+                    try {
+                    	Files.copy (is,  
+                    			Paths.get(filePath.substring(0, filePath.indexOf("/",7)) + "/Desktop/custom.psd"));
+                    } catch (IOException e2) {//error
+                    	System.out.println("ERROR");
+                    }  
+
+                    /*
+                     * 
                     // move custom.psd to desktop
+                     
                     Path file3 = Paths.get("custom.psd");
-                    System.out.println(file3.toString());
 
                     try {
                     	temp = Files.move (file3,  
                     			Paths.get(filePath.substring(0, filePath.indexOf("/",7)) + "/Desktop/custom.psd"));
                     } catch (IOException e2) {//error
-                    } 
-					if(temp != null) { System.out.println("Custom.psd File moved successfully"); } 
-					else{ System.out.println("Custom.psd Failed to move the file"); } 
-                    
+                    }  
+					if(temp != null) { System.out.println("custom.psd moved successfully"); } 
+					else{ System.out.println("--ERROR:  FAILED to move \"custom.psd\""); } 
+
+*/
                     
                     // Opens PhotoShop 'custom.psd' file and the 
                     try { 
                     	  System.getProperty("file.separator");
                     	  Runtime.getRuntime().exec(new String[] {"open", filePath.substring(0, filePath.indexOf("/",7)) + "/Desktop/custom.psd", "-a", "Adobe Photoshop CC 2019"});
                     	  System.out.println("Photoshop custom.psd opened Successfully!");
-                         	
+
                     	  try {TimeUnit.SECONDS.sleep(1);} catch (InterruptedException e) {e.printStackTrace();}
 
                    	  } catch (IOException e1) { 
@@ -294,36 +307,8 @@ public class TestDragNDropFiles extends ResizeImage {
                    		  e1.printStackTrace(); 
                    	  }
                     // end of opening PhotoShop
-                    */
-                    
-                    
-                    
-                    
-                    //TestDragNDropFiles.class.getResourceAsStream("/custom.psd");
-                    
-                    InputStream is = TestDragNDropFiles.class.getResourceAsStream("/custom.psd");
-                    
-                    try {
-                    	Files.copy (is,  
-                    			Paths.get(filePath.substring(0, filePath.indexOf("/",7)) + "/Desktop/custom.psd"));
-                    	
-                    } catch (IOException e2) {//error
-                    } 
 
-                    // Opens PhotoShop 'custom.psd' file and the 
-                    try { 
-                    	  System.getProperty("file.separator");
-                    	  Runtime.getRuntime().exec(new String[] {"open", filePath.substring(0, filePath.indexOf("/",7)) + "/Desktop/custom.psd", "-a", "Adobe Photoshop CC 2019"});
-                    	  System.out.println("Photoshop custom.psd opened Successfully!");
-                         	
-                    	  try {TimeUnit.SECONDS.sleep(1);} catch (InterruptedException e) {e.printStackTrace();}
 
-                   	  } catch (IOException e1) { 
-                   		  System.out.println("Photoshop Was Not Opened!");
-                   		  e1.printStackTrace(); 
-                   	  }
-
-                    
                     //opens the file with PhotoShop "customized_action_script_photoshop.js"
                     try {
                     	Runtime.getRuntime().exec(new String[] {"open", "customized_action_script_photoshop.js", "-a", "Adobe Photoshop CC 2019"});
@@ -333,15 +318,17 @@ public class TestDragNDropFiles extends ResizeImage {
                     	e.printStackTrace();
                     }
 
-                    
+
                 }
             };
             SwingUtilities.invokeLater(run);
         }
 
         protected class DropTargetHandler implements DropTargetListener {
-        	
- 	        
+
+
+
+
             protected void processDrag(DropTargetDragEvent dtde) {
                 if (dtde.isDataFlavorSupported(DataFlavor.javaFileListFlavor)) {
                     dtde.acceptDrag(DnDConstants.ACTION_COPY);
@@ -376,11 +363,9 @@ public class TestDragNDropFiles extends ResizeImage {
 
             @Override
             public void drop(DropTargetDropEvent dtde) {
-            	
-         	    System.out.println("dtde: " + dtde);
 
                 SwingUtilities.invokeLater(new DragUpdate(false, null));
-                
+
                 Transferable transferable = dtde.getTransferable();
                 if (dtde.isDataFlavorSupported(DataFlavor.javaFileListFlavor)) {
                     dtde.acceptDrop(dtde.getDropAction());
@@ -390,16 +375,17 @@ public class TestDragNDropFiles extends ResizeImage {
                             importFiles(transferData);
                             dtde.dropComplete(true);
                         }
-                        
+
+
                     } catch (Exception ex) {
                         ex.printStackTrace();
                     }
-                    
+
                 } else {
                     dtde.rejectDrop();
                 }
             }
-            
+
         }
 
         public class DragUpdate implements Runnable {
@@ -417,9 +403,9 @@ public class TestDragNDropFiles extends ResizeImage {
                 DropPane.this.dragOver = dragOver;
                 //DropPane.this.dragPoint = dragPoint;
                 DropPane.this.repaint();
-                
+
             }
         }
 
     }
-}
+} 
