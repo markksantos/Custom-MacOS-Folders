@@ -16,9 +16,9 @@
   <a href="https://github.com/markksantos/Custom-MacOS-Folders">
     <img src="icon.png" alt="Logo" width="100" height="100">
   </a>
-  <h2 align="center">Custom MacOS Folder Icons Script</h3>
+  <h2 align="center">Custom MacOS Folder Icons Generator</h3>
   <p align="center">
-    Pack of custom MacOS folder icons 📂. 
+    A custom MacOS folder icons generator created in Java📂. 
   <br /> 
   Includes Script & Photoshop file.
     <br />
@@ -33,22 +33,27 @@
   </p>
 </p>
 
-
+## How to use
 ### Make your own file icon!
 
-I created a script file in JavaScript that can be run by Photoshop and make customized folder icons with other icons in a matter of seconds!
+This Java Software allows the user to drag and drop icons into the software and by using JavaScript and Photoshop it automatically make customized folder icons in a matter of seconds!
 
-You can download it [here](https://github.com/markksantos/Custom-MacOS-Folders/issues).
+You can download the .jar executable file for MacOS [here](https://github.com/markksantos/Custom-MacOS-Folders/iFolder.jar).
 
-### How to use script with Photoshop | Tutorial Video
+### How to use | Tutorial Video
 
-I made a tutorial video on how to use the script with Photoshop.
+1. Download the `iFolder.jar` file [here](https://github.com/markksantos/Custom-MacOS-Folders/iFolder.jar).
+2. Drag and drop the '.png' images into the software.
+3. DONE!
 
-[![Tutorial](https://img.youtube.com/vi/   ID HERE    /0.jpg)](https://www.youtube.com/watch?v=   ID HERE      )
+#### Requirements to run this application
+- Must have Photoshop CC 2019 installed.
+- Must be using a computer running MacOS.
 
-1. Download the `custom_folder_icon_script.js` file [here](https://github.com/markksantos/Custom-MacOS-Folders/issues).
-2. Rename your icons .png files to 'icons_1', 'icons_2'...respectively. 
-3. Open Photoshop.
+#### Recommended icon image types
+To have a better result from the folder generator, I recommend that you use '.png' images of icons that are black with a transparent background. Such as this one:
+
+![Icon Example](./icons/icon_example.png)
 
 
 Downloads required to run script:
