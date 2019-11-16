@@ -86,8 +86,8 @@ All the folder icons I have created on my own when performing tests.
 <img src="/icons/folder_icon_5.png" alt="icon" width="100" height="100">
 <img src="/icons/folder_icon_6.png" alt="icon" width="100" height="100">
 <img src="/icons/folder_icon_7.png" alt="icon" width="100" height="100">
-<img src="/icons/folder_icon_13.png" alt="icon" width="100" height="100">
 <img src="/icons/folder_icon_8.png" alt="icon" width="100" height="100">
+<img src="/icons/folder_icon_13.png" alt="icon" width="100" height="100">
 <img src="/icons/folder_icon_9.png" alt="icon" width="100" height="100">
 <img src="/icons/folder_icon_10.png" alt="icon" width="100" height="100">
 <img src="/icons/folder_icon_11.png" alt="icon" width="100" height="100">
