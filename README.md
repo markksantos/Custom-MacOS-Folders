@@ -50,7 +50,7 @@ You can download the .jar executable file for MacOS [here](https://github.com/ma
 3. DONE!
 
 #### Requirements to run this application 💪
-- Must have Photoshop CC 2019 installed.
+- Must have latest version of Photoshop CC 2020 installed.
 - Must be using a computer running on Latest version of MacOS.
 - Latest version of Java.
 
