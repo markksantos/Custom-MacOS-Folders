@@ -18,6 +18,7 @@ import java.awt.dnd.DropTargetDropEvent;
 import java.awt.dnd.DropTargetEvent;
 import java.awt.dnd.DropTargetListener;
 import java.io.IOException;
+import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -44,7 +45,7 @@ public class TestDragNDropFiles extends ResizeImage {
 
     public static void main(String[] args) {
         new TestDragNDropFiles();
-        
+    	
     }
 
     public TestDragNDropFiles() {
@@ -258,7 +259,6 @@ public class TestDragNDropFiles extends ResizeImage {
 
 
                     Path temp = null;
-
                     // move PSUserConfig.txt to PhotoShop Setting Folder
                     try {
                     	temp = Files.move (file2,  
@@ -267,7 +267,7 @@ public class TestDragNDropFiles extends ResizeImage {
                     } 
                     if(temp != null) { System.out.println("File moved successfully"); } 
                     else{ System.out.println("Failed to move the file"); } 
-
+/*
                     // move custom.psd to desktop
                     Path file3 = Paths.get("custom.psd");
                     System.out.println(file3.toString());
@@ -277,8 +277,9 @@ public class TestDragNDropFiles extends ResizeImage {
                     			Paths.get(filePath.substring(0, filePath.indexOf("/",7)) + "/Desktop/custom.psd"));
                     } catch (IOException e2) {//error
                     } 
-					if(temp != null) { System.out.println("File moved successfully"); } 
-					else{ System.out.println("Failed to move the file"); } 
+					if(temp != null) { System.out.println("Custom.psd File moved successfully"); } 
+					else{ System.out.println("Custom.psd Failed to move the file"); } 
+                    
                     
                     // Opens PhotoShop 'custom.psd' file and the 
                     try { 
@@ -293,8 +294,36 @@ public class TestDragNDropFiles extends ResizeImage {
                    		  e1.printStackTrace(); 
                    	  }
                     // end of opening PhotoShop
+                    */
                     
+                    
+                    
+                    
+                    //TestDragNDropFiles.class.getResourceAsStream("/custom.psd");
+                    
+                    InputStream is = TestDragNDropFiles.class.getResourceAsStream("/custom.psd");
+                    
+                    try {
+                    	Files.copy (is,  
+                    			Paths.get(filePath.substring(0, filePath.indexOf("/",7)) + "/Desktop/custom.psd"));
+                    	
+                    } catch (IOException e2) {//error
+                    } 
 
+                    // Opens PhotoShop 'custom.psd' file and the 
+                    try { 
+                    	  System.getProperty("file.separator");
+                    	  Runtime.getRuntime().exec(new String[] {"open", filePath.substring(0, filePath.indexOf("/",7)) + "/Desktop/custom.psd", "-a", "Adobe Photoshop CC 2019"});
+                    	  System.out.println("Photoshop custom.psd opened Successfully!");
+                         	
+                    	  try {TimeUnit.SECONDS.sleep(1);} catch (InterruptedException e) {e.printStackTrace();}
+
+                   	  } catch (IOException e1) { 
+                   		  System.out.println("Photoshop Was Not Opened!");
+                   		  e1.printStackTrace(); 
+                   	  }
+
+                    
                     //opens the file with PhotoShop "customized_action_script_photoshop.js"
                     try {
                     	Runtime.getRuntime().exec(new String[] {"open", "customized_action_script_photoshop.js", "-a", "Adobe Photoshop CC 2019"});
@@ -312,8 +341,6 @@ public class TestDragNDropFiles extends ResizeImage {
 
         protected class DropTargetHandler implements DropTargetListener {
         	
-        
-
  	        
             protected void processDrag(DropTargetDragEvent dtde) {
                 if (dtde.isDataFlavorSupported(DataFlavor.javaFileListFlavor)) {
@@ -364,7 +391,6 @@ public class TestDragNDropFiles extends ResizeImage {
                             dtde.dropComplete(true);
                         }
                         
-
                     } catch (Exception ex) {
                         ex.printStackTrace();
                     }
