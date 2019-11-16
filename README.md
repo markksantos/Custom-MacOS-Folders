@@ -41,11 +41,11 @@
 
 This Java Software allows the user to drag and drop icons into the software and by using JavaScript and Photoshop it automatically make customized folder icons in a matter of seconds!
 
-You can download the .jar executable file for MacOS [here](https://github.com/markksantos/Custom-MacOS-Folders/iFolder.jar).
+You can download the .jar executable file for MacOS [here](https://github.com/markksantos/Custom-MacOS-Folders/blob/master/iFolder.jar).
 
 ## How to use 🔨
 
-1. Download the `iFolder.jar` file [here](https://github.com/markksantos/Custom-MacOS-Folders/iFolder.jar).
+1. Download the `iFolder.jar` file [here](https://github.com/markksantos/Custom-MacOS-Folders/blob/master/iFolder.jar).
 2. Drag and drop the '.png' images into the software.
 3. DONE!
 
