@@ -110,7 +110,7 @@ All the folder icons I have created on my own when performing tests.
 
 ## Similar Projects on Github🎨 
 
-The project that inspired me to start this project is a similar project by [Amin Shariati](https://github.com/shariati) called [OS-Folder-Icons](https://github.com/shariati/OS-Folder-Icons) which contains more icons for Mac, Windows, and Linux 💻.
+The project that inspired me to start this project is a similar project by [Amin Shariati](https://github.com/shariati) and [Sarah](https://www.linkedin.com/in/ghanbarzadeh/) called [OS-Folder-Icons](https://github.com/shariati/OS-Folder-Icons) which contains more icons for Mac, Windows, and Linux 💻.
 
 I also used most of his readme.md file as a template to this one, so make sure to have a look at this project too 👍.
 
