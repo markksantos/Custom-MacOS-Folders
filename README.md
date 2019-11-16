@@ -45,13 +45,14 @@ You can download the .jar executable file for MacOS [here](https://github.com/ma
 
 ## How to use 🔨
 
-1. Download the `iFolder.jar` file [here](https://github.com/markksantos/Custom-MacOS-Folders/blob/master/iFolder.jar).
+1. Download the `iFolder.jar` file [here](https://github.com/markksantos/Custom-MacOS-Folders/blob/master/iFolder.jar) and open it.
 2. Drag and drop the '.png' images into the software.
 3. DONE!
 
 #### Requirements to run this application 💪
 - Must have Photoshop CC 2019 installed.
-- Must be using a computer running MacOS.
+- Must be using a computer running on Latest version of MacOS.
+- Latest version of Java.
 
 #### Recommended icon image types 👀
 To have a better result from the folder generator, I recommend that you use '.png' images of icons that are black with a transparent background. Such as this one:
