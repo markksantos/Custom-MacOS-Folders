@@ -69,7 +69,7 @@ Simple😎
 
 ### Folder Icons
 
-![](./icons/icons_128px_.png)
+![](./icons/folder_icons_1.png)
 
 
 ### Created by
