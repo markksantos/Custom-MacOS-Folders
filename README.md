@@ -26,21 +26,20 @@
     ·
     <a href="https://github.com/markksantos/Custom-MacOS-Folders/issues">Report Problem</a>
     ·
-    <a href="https://github.com/othneildrew/Custom-MacOS-Folders/issues">Request Feature</a>
+    <a href="https://github.com/markksantos/Custom-MacOS-Folders/issues">Request Feature</a>
   <h4 align="center">by <a href="https://www.markksantos.com">Mark Santos</a></h4>
     <br /> 
       <br /> 
   </p>
 </p>
 
-## How to use
-### Make your own file icon!
+## About the Application
 
 This Java Software allows the user to drag and drop icons into the software and by using JavaScript and Photoshop it automatically make customized folder icons in a matter of seconds!
 
 You can download the .jar executable file for MacOS [here](https://github.com/markksantos/Custom-MacOS-Folders/iFolder.jar).
 
-### How to use | Tutorial Video
+## How to use
 
 1. Download the `iFolder.jar` file [here](https://github.com/markksantos/Custom-MacOS-Folders/iFolder.jar).
 2. Drag and drop the '.png' images into the software.
@@ -54,11 +53,6 @@ You can download the .jar executable file for MacOS [here](https://github.com/ma
 To have a better result from the folder generator, I recommend that you use '.png' images of icons that are black with a transparent background. Such as this one:
 
 ![Icon Example](./icons/icon_example.png)
-
-
-Downloads required to run script:
-Script: [download](https://github.com/markksantos/Custom-MacOS-Folders/issues).
-.PSD file: [download](https://github.com/markksantos/Custom-MacOS-Folders/issues).
 
 #### Make a request
 Don't have Photoshop or don't know how to use the script? No worries!
@@ -81,7 +75,6 @@ Simple😎
 ### Created by
 
 - 👨🏼‍💻 ([Mark Santos](https://markksantos.com))
-
 
 
 ### Similar Projects on Github
