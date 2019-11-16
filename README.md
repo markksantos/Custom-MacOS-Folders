@@ -52,7 +52,7 @@ You can download the .jar executable file for MacOS [here](https://github.com/ma
 #### Recommended icon image types
 To have a better result from the folder generator, I recommend that you use '.png' images of icons that are black with a transparent background. Such as this one:
 
-![Icon Example](./icons/icon_example.png)
+<img src="icon_example.png" alt="example" width="100" height="100">
 
 #### Make a request
 Don't have Photoshop or don't know how to use the script? No worries!
