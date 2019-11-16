@@ -52,7 +52,7 @@ You can download the .jar executable file for MacOS [here](https://github.com/ma
 #### Requirements to run this application 💪
 - Must have latest version of Photoshop CC 2020 installed.
 - Must be using a computer running on Latest version of MacOS.
-- Latest version of Java Developer Kit (Download it [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk13-downloads-5672538.html) .
+- Latest version of Java Developer Kit (Download it [here](https://www.java.com/en/download/manual.jsp) .
 
 #### Recommended icon image types 👀
 To have a better result from the folder generator, I recommend that you use '.png' images of icons that are black with a transparent background. Such as this one:
