@@ -22,11 +22,13 @@
   <br /> 
   Includes Script & Photoshop file.
     <br />
-    <a href="https://github.com/markksantos/Custom-MacOS-Folders">Download Files</a>
+    <a href="https://github.com/markksantos/Custom-MacOS-Folders/blob/master/iFolder.jar">Download App</a>
     ·
-    <a href="https://github.com/markksantos/Custom-MacOS-Folders/issues">Report Problem</a>
+    <a href="https://github.com/markksantos/Custom-MacOS-Folders">Download Java Files</a>
     ·
-    <a href="https://github.com/markksantos/Custom-MacOS-Folders/issues">Request Feature</a>
+    <a href="https://github.com/markksantos/Custom-MacOS-Folders/tree/master/icons">Download Icons</a>
+         ·
+    <a href="https://github.com/markksantos/Custom-MacOS-Folders/issues">Report Issue</a>
   <h4 align="center">by <a href="https://www.markksantos.com">Mark Santos</a></h4>
     <br /> 
       <br /> 
