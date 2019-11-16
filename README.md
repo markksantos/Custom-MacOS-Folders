@@ -18,9 +18,9 @@
   </a>
   <h2 align="center">Custom MacOS Folder Icons Generator</h3>
   <p align="center">
-    A custom MacOS folder icons generator created in Java. 
+    A custom MacOS folder icons generator created in Java . 
   <br /> 
-     <i>BETA VERSION - ONLY WORKS ON LATEST VERSION OF JAVA<i/>
+     <i>BETA VERSION - ONLY WORKS ON LATEST VERSION OF JAVA(JDK 13)<i/>
      <br />
   Includes Executable & Photoshop file.
     <br />
@@ -52,7 +52,7 @@ You can download the .jar executable file for MacOS [here](https://github.com/ma
 #### Requirements to run this application 💪
 - Must have latest version of Photoshop CC 2020 installed.
 - Must be using a computer running on Latest version of MacOS.
-- Latest version of Java.
+- Latest version of Java Developer Kit (Download it [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk13-downloads-5672538.html) .
 
 #### Recommended icon image types 👀
 To have a better result from the folder generator, I recommend that you use '.png' images of icons that are black with a transparent background. Such as this one:
@@ -77,7 +77,6 @@ Simple😎
 ## Folder Icons📂
 All the folder icons I have created on my own when performing tests.
 
-#### Social Media
 <p>
 <img src="/icons/folder_icon_1.png" alt="icon" width="100" height="100">
 <img src="/icons/folder_icon_2.png" alt="icon" width="100" height="100">
@@ -100,6 +99,8 @@ All the folder icons I have created on my own when performing tests.
 <img src="/icons/folder_icon_20.png" alt="icon" width="100" height="100">
 <img src="/icons/folder_icon_21.png" alt="icon" width="100" height="100">
 <img src="/icons/folder_icon_22.png" alt="icon" width="100" height="100">
+     
+     
 </p>
 
 
