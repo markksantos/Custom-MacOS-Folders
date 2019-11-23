@@ -19,8 +19,6 @@
   <h2 align="center">Custom MacOS Folder Icons Generator</h3>
   <p align="center">
     A custom MacOS folder icons generator created in Java . 
-  <br /> 
-     BETA VERSION - ONLY WORKS ON LATEST VERSION OF JAVA(JDK 13)
      <br />
   Includes Executable & Photoshop file.
     <br />
